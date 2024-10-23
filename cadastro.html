@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastrar Música</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastrar Música</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cadastro.html">Cadastrar Música</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
+    </header>
+    
+    <main>
+        <form id="musicForm">
+            <input type="text" id="title" placeholder="Título" required>
+            <input type="text" id="artist" placeholder="Artista" required>
+            <input type="text" id="genre" placeholder="Gênero" required>
+            <input type="number" id="duration" placeholder="Duração (min)" required>
+            <input type="url" id="link" placeholder="Link da Música" required>
+            <input type="url" id="imageLink" placeholder="Link da Imagem" required>
+            <button type="submit">Cadastrar Música</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Catálogo de Músicas</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
